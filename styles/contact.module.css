@@ -43,11 +43,27 @@
   align-items: center;
   justify-content: center;
   transition: color 0.3s ease, transform 0.3s ease;
+  color: #808dad; 
 }
 
 .social__links a:hover {
-  color: var(--site-theme-color);
   transform: scale(1.2);
+}
+
+.social__links a[aria-label="Youtube Channel"]:hover {
+  color: red;
+}
+
+.social__links a[aria-label="Github Profile"]:hover {
+  color: white;
+}
+
+.social__links a[aria-label="Twitter Account"]:hover {
+  color: white;
+}
+
+.social__links a[aria-label="LinkedIn Account"]:hover {
+  color: #0077b5;
 }
 
 .social__links a i {
